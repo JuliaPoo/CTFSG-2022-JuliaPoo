@@ -1,0 +1,9 @@
+#pragma once
+
+#define N_FRAMES <<N_FRAMES>>
+#define IMAGE_WIDTH <<IMAGE_WIDTH>>
+#define IMAGE_HEIGHT <<IMAGE_HEIGHT>>
+
+static constexpr size_t movie_pvals[N_FRAMES][IMAGE_WIDTH][IMAGE_HEIGHT] = {
+	<<MOVIE_PVALS>>
+};

@@ -1,0 +1,1 @@
+flag = b"CTFSG{https://arxiv.org/abs/1802.03367?salt=290nlk01nx}"

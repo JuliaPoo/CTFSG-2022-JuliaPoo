@@ -1,0 +1,15 @@
+<!doctype html>
+<title>Hello</title>
+<h1>Hello {{ username }}! Can you recover the flag in your cookie?</h1>
+
+<body>
+    <h2>Not {{ username }}? Tell me who you are!</h2>
+    <form method="post">
+        <label for="username">Name:</label><br>
+        <input type="text" name="username"><br>
+    </form>
+    {% if error %}
+    <h2>An error occurred! (Error handling is great practice UwU)</h2>
+    <p>{{error}}</p>
+    {% endif %}
+</body>

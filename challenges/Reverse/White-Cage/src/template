@@ -1,0 +1,14 @@
+import re
+
+verify = !A!
+
+def main():
+    flag = input("Input flag: ")
+    match = re.match(r'^CTFSG\{[a-zA-Z_]+\}$', flag)
+    if match and verify(flag.encode('utf-8')):
+        print("Flag is: %s"%flag)
+    else:
+        print("Wrong flag")
+
+if __name__=="__main__":
+    main()

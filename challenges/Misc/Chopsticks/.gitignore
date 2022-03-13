@@ -1,0 +1,6 @@
+gen_strat.c
+gen_strat.*.pyd
+build
+sand
+sand2
+__pycache__

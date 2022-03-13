@@ -1,0 +1,20 @@
+service chopsticks
+{
+disable = no
+socket_type = stream
+protocol = tcp
+wait = no
+user = ctf
+type = UNLISTED
+port = 9999
+bind = 0.0.0.0
+server = /usr/bin/python3
+server_args = /home/ctf/server.py
+banner_fail = /etc/banner_fail
+
+# Protections
+#per_source = 10
+#rlimit_cpu = 20
+#rlimit_as = 1024M
+#access_time = ???
+}

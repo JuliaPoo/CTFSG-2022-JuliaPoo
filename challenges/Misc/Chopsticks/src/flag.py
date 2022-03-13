@@ -1,0 +1,1 @@
+flag = "CTFSG{Th3_Perf3cT_Pl4YeR_0j2nlhe}"
